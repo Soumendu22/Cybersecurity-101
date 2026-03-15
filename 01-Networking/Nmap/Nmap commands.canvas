@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"acf11babeea0b55b","type":"file","file":"Pasted image 20260315143847.png","x":-1040,"y":-80,"width":375,"height":400},
+		{"id":"a9a8b43c922a1d0b","type":"file","file":"Pasted image 20260315143552.png","x":-500,"y":-355,"width":400,"height":91},
+		{"id":"36e7c4a78793edec","type":"file","file":"Pasted image 20260315144145.png","x":-580,"y":-42,"width":609,"height":362},
+		{"id":"745d8ebed7957eae","type":"text","text":"nmap -sV <ip_address> for Service version detection","x":-469,"y":-186,"width":387,"height":60},
+		{"id":"a972a080b975bc51","type":"text","text":"nmap <ip_address> for checking host is up and to scan open ports","x":-1187,"y":-216,"width":669,"height":60},
+		{"id":"706ed054fe527530","type":"file","file":"Pasted image 20260315144352.png","x":80,"y":-180,"width":400,"height":500},
+		{"id":"45c4daa780e03eb8","type":"text","text":"nmap -p- <ip_address> for scanning all ports","x":37,"y":-355,"width":486,"height":60},
+		{"id":"c9cf57fcfe55bdde","type":"file","file":"Pasted image 20260315144613.png","x":620,"y":-285,"width":580,"height":465},
+		{"id":"856ea944b90297a1","type":"text","text":"nmap -A <ip_address> for Aggressive scan it includes service detection, scripts running and traceroute\n\nT4 stands for time speed 0 (low) - 5(high)\n0 is used for IDS evasion ","x":676,"y":-573,"width":468,"height":218},
+		{"id":"00f69f114bb324fd","type":"file","file":"Pasted image 20260315144638.png","x":582,"y":220,"width":657,"height":316},
+		{"id":"e3dfe3b52741ed3d","type":"file","file":"Pasted image 20260315145528.png","x":1420,"y":60,"width":460,"height":523},
+		{"id":"0d450b3d83221811","type":"text","text":"nmap -sC <ip_address> for script scanning through NSE(Nmap Scripts Engine)","x":1430,"y":-102,"width":440,"height":100},
+		{"id":"8cfde4b84da97e43","type":"file","file":"Pasted image 20260315145551.png","x":1380,"y":660,"width":540,"height":217},
+		{"id":"5d9906d536ae84c4","type":"text","text":"Nmap is used for scanning networks and to find open ports and vulnerabilities in the services and try to exploit them \n","x":29,"y":-760,"width":690,"height":91,"color":"2"},
+		{"id":"6193c777882d1177","type":"file","file":"Pasted image 20260315144958.png","x":-170,"y":512,"width":398,"height":87},
+		{"id":"24eac7cfd2bcf323","type":"text","text":"nmap -O <ip_address> for OS scan","x":-425,"y":378,"width":250,"height":60},
+		{"id":"e44a2e0489ad5d82","type":"text","text":"nmap -v for checking version of nmap\n","x":-871,"y":-494,"width":402,"height":60}
+	],
+	"edges":[
+		{"id":"c0031edd74d71d2b","fromNode":"e44a2e0489ad5d82","fromSide":"right","toNode":"a9a8b43c922a1d0b","toSide":"top"},
+		{"id":"c1e6fa2abad63fad","fromNode":"a972a080b975bc51","fromSide":"bottom","toNode":"acf11babeea0b55b","toSide":"top"},
+		{"id":"ec48c2743135709a","fromNode":"745d8ebed7957eae","fromSide":"bottom","toNode":"36e7c4a78793edec","toSide":"top"},
+		{"id":"3ed1519f79c1f059","fromNode":"45c4daa780e03eb8","fromSide":"bottom","toNode":"706ed054fe527530","toSide":"top"},
+		{"id":"7c7509538466b378","fromNode":"c9cf57fcfe55bdde","fromSide":"bottom","toNode":"00f69f114bb324fd","toSide":"top"},
+		{"id":"a86c2d1d92cbc6bf","fromNode":"856ea944b90297a1","fromSide":"bottom","toNode":"c9cf57fcfe55bdde","toSide":"top"},
+		{"id":"ec4975b87293b313","fromNode":"24eac7cfd2bcf323","fromSide":"bottom","toNode":"6193c777882d1177","toSide":"top"},
+		{"id":"e5c8d27b9118caec","fromNode":"e3dfe3b52741ed3d","fromSide":"bottom","toNode":"8cfde4b84da97e43","toSide":"top"},
+		{"id":"972c60955f59f92e","fromNode":"0d450b3d83221811","fromSide":"bottom","toNode":"e3dfe3b52741ed3d","toSide":"top"}
+	]
+}
